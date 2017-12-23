@@ -49,7 +49,7 @@ h3 {
 }
 
 .container {
-    height: 70%;
+    height: 80%;
     width: 70%;
     margin: 0 auto;
 }
@@ -166,6 +166,10 @@ h3 {
 
 #yellow-circle {
     border: 5px solid #f4c20d;
+}
+
+#indigo-circle {
+    border: 5px solid #283593;
 }
 
 .team-row .person-info-container h3 {
