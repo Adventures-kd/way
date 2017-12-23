@@ -29,7 +29,8 @@
     <script type="text/javascript">
         $(document).ready(function () {
             $('#fullpage').fullpage({
-                sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
+                // sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
+                sectionsColor: ['#4caf50', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
                 anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
                 menu: '#menu',
                 scrollingSpeed: 1000
@@ -41,40 +42,46 @@
 </head>
 
 <body>
-    <ul id="menu">
-        <li data-menuanchor="firstPage">
-            <a href="#firstPage">Home</a>
-        </li>
-        <li data-menuanchor="secondPage">
-            <a href="#secondPage">Our Services</a>
-        </li>
-        <li data-menuanchor="3rdPage">
-            <a href="#3rdPage">Our Team</a>
-        </li>
-        <li data-menuanchor="4thpage">
-            <a href="#4thpage">Contact Us</a>
-        </li>
-    </ul>
+
+    <div class="menu-container">
+        <ul id="menu">
+            <li data-menuanchor="firstPage">
+                <a href="#firstPage">Home</a>
+            </li>
+            <li data-menuanchor="secondPage">
+                <a href="#secondPage">Our Services</a>
+            </li>
+            <li data-menuanchor="3rdPage">
+                <a href="#3rdPage">Our Team</a>
+            </li>
+            <li data-menuanchor="4thpage">
+                <a href="#4thpage">Contact Us</a>
+            </li>
+        </ul>
+    </div>
 
     <div id="fullpage">
 
         <div class="section " id="section0">
-            <h1>WAY - What About Youth</h1>
-            <input type="hidden" name="id" value="1" />
-            <p>We help to find the best in you.</p>
-            <!-- <img src="imgs/fullPage.png" alt="fullPage" /> -->
+            <div class="container">
+                <img src="../assets/images/way-logo.png" alt="WAY" />
+                <h1>What About Youth</h1>
+                <input type="hidden" name="id" value="1" />
+                <p>We help to find the best in you.</p>
+            </div>
         </div>
 
         <div class="section active" id="section1">
             <!-- <div class="slide"> -->
             <div class="intro">
-                <h1>Our Services</h1>
-                <span>Soft Skill Training</span>
-                <span>Entrepreneurship Development</span>
-                <span>Leadership Development</span>
-                <span>Communication</span>
-                <span>Group Discussion</span>
-                <!-- <img src="imgs/slider.png" alt="slider" /> -->
+                <div class="container">
+                    <h1>Our Services</h1>
+                    <span>Soft Skill Training</span>
+                    <span>Entrepreneurship Development</span>
+                    <span>Leadership Development</span>
+                    <span>Communication</span>
+                    <span>Group Discussion</span>
+                </div>
             </div>
             <!-- </div> -->
 
@@ -89,39 +96,42 @@
         </div>
 
         <div class="section" id="section2">
-            <div class="intro">
-                <h1>Our Team</h1>
-                <p>Er. Sonam Sherpa</p>
-                <p>Mamata Tamang</p>
-                <p>Er. Sanjay Shrestha</p>
-                <p>Prachi Badu</p>
-                <p>Er. Krijan Gautam</p>
-                <!-- <img src="imgs/example2.png" alt="example" /> -->
+            <div class="container">
+                <div class="intro">
+                    <h1>Our Team</h1>
+                    <p>Er. Sonam Sherpa</p>
+                    <p>Mamata Tamang</p>
+                    <p>Er. Sanjay Shrestha</p>
+                    <p>Prachi Badu</p>
+                    <p>Er. Krijan Gautam</p>
+                </div>
             </div>
         </div>
 
+
         <div class="section" id="section3">
-            <div class="intro">
-                <h1>Contact US</h1>
-                <p>For Business inquiries</p>
-                <ul>
-                    <li>
-                        <a href="mailto:way.whataboutyouth@gmail.com?subject=Mail from Our Site" target="_blank">Email Us</a>
-                    </li>
-                    <li>
-                        <a href="https://www.facebook.com/whataboutyouth/" target="_blank">Facebook</a>
-                    </li>
-                    <li>
-                        <a href="https://twitter.com/whataboutyouth" target="_blank">Twitter</a>
-                    </li>
-                    <li>
-                        <a href="https://www.instagram.com/whataboutyouth/" target="_blank">Instagram</a>
-                    </li>
-                </ul>
+            <div class="container">
+                <div class="intro">
+                    <h1>Contact US</h1>
+                    <p>For Business inquiries</p>
+                    <ul>
+                        <li>
+                            <a href="mailto:way.whataboutyouth@gmail.com?subject=Mail from Our Site" target="_blank">Email Us</a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/whataboutyouth/" target="_blank">Facebook</a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/whataboutyouth" target="_blank">Twitter</a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/whataboutyouth/" target="_blank">Instagram</a>
+                        </li>
+
+                    </ul>
+                </div>
             </div>
-            <!-- <img src="imgs/tablets.png" alt="tablets" /> -->
         </div>
-    </div>
 
 </body>
 
